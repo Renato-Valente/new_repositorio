@@ -31,13 +31,14 @@ body {
 
 .hero-content h1 {
   font-family: 'Concert One', sans-serif;
-  font-size: 7rem;
+  font-size: 85px;
 }
 
 .sub-headline {
-  width: 70%;
+  width: 100%;
+
   font-family: 'Poppins', sans-serif;
-  font-size: 22px;
+  font-size: 26px;
   margin-top: 45px;
 }
 
@@ -49,12 +50,29 @@ body {
   
 }
 
+@media (min-width: 800px) {
+  .hero-half:last-child {
+    margin-left: 10%; 
+  }
+}
+
+@media (min-width: 1600px) {
+  .hero-content h1 {font-size: 100px}
+  .hero-content p {font-size:30px}
+}
+
+@media (min-width: 1900px) {
+  .hero-content h1 {font-size: 130px}
+  .hero-content p {font-size: 32px}
+  .hero-content img {height: 665px}
+}
+
 @media (max-width: 1280px) {
   .hero-content h1 {
     font-size: 85px;
   }
   .sub-headline {
-    font-size: 18px;
+    font-size: 22px;
     margin-top: 20px;
   }
 
@@ -65,7 +83,7 @@ body {
 
 @media (max-width: 1000px) {
   .hero-content h1 {
-    font-size: 65px;
+    font-size: 60px;
   }
   .sub-headline {
     font-size: 14px;
@@ -190,6 +208,20 @@ body {
   height: auto;
 }
 
+@media (min-width:1600px) {
+  .card {height: 500px}
+  .card h3 {font-size: 70px}
+  .card p {font-size: 26px}
+  .card .links {height: 80px}
+  .link img {width: 50px}
+}
+
+@media (min-width:2000px) {
+  .card {height: 600px}
+  .card h3 {font-size: 85px}
+  .card p {font-size: 32px}
+}
+
 @media (max-width:1280px) {
   .card {
     padding: 20px 45px;
@@ -275,6 +307,19 @@ body {
   align-items: center;
 }
 
+@media (min-width: 1600px) {
+  .exp-content h3 {font-size: 60px}
+  .exp-content p {font-size: 28px}
+}
+@media (min-width: 1800px) {
+  .exp-content h3 {font-size: 65px}
+  .exp-content p {font-size: 32px}
+}
+
+@media (min-width: 2000px) {
+  .exp-content h3 {font-size: 85px}
+  .exp-content p {font-size: 36px}
+}
 
 @media (max-width:1150px) {
   .exp-content p{
@@ -308,6 +353,10 @@ body {
   .exp-content h3{font-size: 25px;}
   .exp-content p{font-size: 10px;}
 }
+
+
+
+
 
 
 .contact-content {
