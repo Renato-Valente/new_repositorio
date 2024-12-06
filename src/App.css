@@ -19,7 +19,7 @@ body {
 .hero-content {
   padding: 90px 103px;
   background-color: #ACB0BB;
-  color: #191B28;;
+  color: #191B28;
   width: 100%;
 
   display: flex;
@@ -31,7 +31,8 @@ body {
 
 .hero-content h1 {
   font-family: 'Concert One', sans-serif;
-  font-size: 85px;
+  text-align: center;
+  font-size: 75px;
 }
 
 .sub-headline {
@@ -57,22 +58,34 @@ body {
 }
 
 @media (min-width: 1600px) {
-  .hero-content h1 {font-size: 100px}
+  .hero-content h1 {font-size: 80px}
   .hero-content p {font-size:30px}
 }
 
 @media (min-width: 1900px) {
-  .hero-content h1 {font-size: 130px}
+  .hero-content h1 {font-size: 100px}
   .hero-content p {font-size: 32px}
   .hero-content img {height: 665px}
 }
 
+@media (min-width: 2760px) {
+  .hero-content h1 {font-size: 125px}
+  .hero-content p {font-size: 40px}
+  .hero-content img {height: 665px}
+}
+
+@media (max-width: 1430px) {
+  .hero-content h1 {
+    font-size: 55px;
+  }
+}
+
 @media (max-width: 1280px) {
   .hero-content h1 {
-    font-size: 85px;
+    font-size: 48px;
   }
   .sub-headline {
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 20px;
   }
 
@@ -83,24 +96,24 @@ body {
 
 @media (max-width: 1000px) {
   .hero-content h1 {
-    font-size: 60px;
+    font-size: 35px;
   }
   .sub-headline {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 10px;
   }
   .hero-half img{
-    height: 270px;
+    height: 200px;
   }
 }
 
-@media (max-width: 800px){
+@media (max-width: 790px){
   .hero-content {
     display: flex;
     flex-direction: column;
   }
   .hero-content h1 {
-    font-size: 80px;
+    font-size: 50px;
   }
   .hero-half {
     width: 100%;
@@ -116,21 +129,21 @@ body {
   }
 
   .sub-headline {
-    font-size: 20px;
+    font-size: 15px;
     /* border: 1px solid red; */
     width: 100%;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 590px) {
   .hero-content {
     padding: 55px 60px;
   }
   .hero-content h1 {
-    font-size: 55px;
+    font-size: 40px;
   }
   .hero-content p {
-    font-size: 16px;
+    font-size: 14px;
   }
   .hero-content img {
     width: 100%;
@@ -390,4 +403,34 @@ body {
 @media (max-width:600px) {
   .contact-content h3{font-size: 26px}
   .contact-content a{font-size: 12px}
+}
+
+
+
+@media (min-width: 3000px) {
+  .hero-content, .projects-content, .exp-content, .contact-content {padding: 100px 200px}
+  .hero-content h1 {font-size: 150px}
+  .hero-content p {font-size:52px}
+  .hero-content img {height: 1000px}
+
+  .projects-content h3 {font-size: 130px}
+  .card p {font-size: 50px;}
+  .card {padding: 100px; height: 1000px;}
+
+  .exp-content h3 {font-size: 130px;}
+  .exp-content p {font-size: 50px;}
+  .exp-content img {height: 700px;}
+
+  .contact-content h3 {font-size: 100px;}
+  .contact-content a {font-size: 45px;}
+
+}
+
+@media (min-width: 2300px) {
+  .exp-content img {height: 500px}
+}
+
+@media (min-width: 2600px) {
+  .card p {font-size: 40px;}
+  .card h3 {font-size: 100px}
 }

@@ -10,7 +10,7 @@ const Hero = () => {
   return (
       <div className="hero-content">
         <div className='hero-half'>
-          <h1>Front End Portifolio</h1>
+          <h1>Renato Valente's Portfolio</h1>
           <div className="sub-headline">
             <p>
             Hello. I’m Renato, a front end developer. I’m really into software development and am always trying to improve and expand my knowledge in the area. Please, take a deeper look at some of my projects below.
@@ -75,7 +75,7 @@ const Contact = () => {
   return(
     <div className="contact-content">
       <h3>Contact me</h3>
-      <a target='blank' href="https://www.linkedin.com/in/renato-v-941b0b139/">https://www.linkedin.com/in/renato-v-941b0b139/</a>
+      <a target='blank' href="https://www.linkedin.com/in/renato-valente/">https://www.linkedin.com/in/renato-valente/</a>
       <a target='blank' href="https://github.com/Renato-Valente/">https://github.com/Renato-Valente/</a>
     </div>
   )
